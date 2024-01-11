@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style"> <!-- Hacer mas rapido la hoja de estilo -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style"> <!-- Hacer mas rapido la hoja de estilo -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo sin fondo.png"> <!-- Cambiar el icono -->
+</head>
+
+<body id="inicio">
+    <!-- Titulo -->
+    <header>
+        <h1 class="titulo">Fabián Padilla <span>Freelancer</span></h1>
+    </header>
+
+    <!-- Navegacion -->
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre Mi</a>
+            <a href="#clientes">Clientes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <section id="sobre-mi" class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo Web <span>Freelancer</span></h2>
+
+            <p>
+                <img src="img/Ubicacion.png" alt="Ubicacion">
+                México, México
+            </p>
+
+            <a class="boton" href="#">Contactar</a>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main class="contenedor sombra">
+        <h2 id="clientes">Mis Servicios</h2>
+        <p class="clientes">
+            En nuestra empresa, contamos con los siguientes servicios.
+        </p>
+
+        <div class="servicios">
+            <!-- Diseño Web -->
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <img src="img/diseño.png" alt="Diseño Web">
+                </div>
+                <p> Somos la agencia que tu negocio está buscando, deja que nosotros nos
+                    encarguemos de construir tu negocio digital. Estamos para asesorarte
+                    en este proceso.</p>
+            </section>
+
+            <!-- Aplicaciones Moviles -->
+            <section class="servicio">
+                <h3>Aplicaciones Móviles</h3>
+                <div class="iconos">
+                    <img src="img/movil.png" alt="Aplicaciones Móviles">
+                </div>
+                <p> Mejora la experiencia de tus productos digitales con soluciones
+                    eficientes y escalables para lograr los objetivos de tu negocio y de
+                    tus clientes en menos tiempo.</p>
+            </section>
+
+            <!-- E-Commerce -->
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <div class="iconos">
+                    <img src="img/E-Commerce.png" alt="E-Commerce">
+                </div>
+                <p> Maqueta y personalizar tus correos en HTML o utiliza una de las
+                    múltiples plantillas. Impulsa tu estrategia digital mediante la
+                    segmentación y la hiperpersonalización.</p>
+            </section>
+        </div>
+
+        <!--Clientes-->
+        <h2>Clientes</h2>
+        <p class="clientes">
+            Las marcas que han llevado sus productos digitales al siguiente nivel.
+        </p>
+
+        <div class="servicios">
+            <section class="servicio">
+                <h3>McDonald's</h3>
+                <div class="iconos">
+                    <img src="https://img.icons8.com/clouds/100/000000/mcdonalds.png" alt="McDonald's" />
+                </div>
+                <p>
+                    “De la mano de <span>Fabián Padilla Freelancer</span> hemos logrado la facilidad tecnológica
+                    para cumplir de manera más rápida y segura nuestro propósito de
+                    armonizar el sector inmobiliario”
+                </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Adidas</h3>
+                <div class="iconos">
+                    <img src="img/Adidas.png" alt="Adidas" />
+                </div>
+                <p>
+                    “Gran reto directivo: apalancar la estrategia en tecnología.
+                    <span>Fabián Padilla Freelancer</span> experto en Código Estratégico”
+                </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Walmart</h3>
+                <div class="iconos">
+                    <img src="img/Walmart.png" alt="Walmart" />
+                </div>
+
+                <p>
+                    <span>Fabián Padilla Freelancer</span> es una empresa seria y responsable. Estamos muy
+                    contentos con nuestra nueva página web. Desde la Walmart queremos
+                    agradecer a todo el equipo de Fabián Padilla Freelenacer por su
+                    trabajo .
+                </p>
+            </section>
+        </div>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctame llenando todos los campos.</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre...">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono...">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu email...">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Todos los derechos reservados. Fabian Padilla Freelancer.</p>
+    </footer>
+</body>
+
+</html>
